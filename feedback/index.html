@@ -71,7 +71,19 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     
 
     <h1 id="community-feedback">Community Feedback<a class="headerlink" href="#community-feedback" title="Permanent link">🔗</a></h1>
-<p>Please use the interactive forum below to leave comments and participate in discussion about the principles and recommendations. </p>
+<p>Please use the interactive forum below to leave comments and participate in discussion about the principles and recommendations.</p>
+<div id='discourse-comments'></div>
+
+<script type="text/javascript">
+  DiscourseEmbed = { discourseUrl: 'https://bicycle-principles.trydiscourse.com/',
+                     discourseEmbedUrl: 'https://www.bikeprinciples.org/feedback/' };
+
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+</script>
 
   <br>
     
