@@ -34,6 +34,7 @@
         
         var pageToc = [
           {title: "Community Feedback", url: "#_top", children: [
+              {title: "Subscribe to mailing list", url: "#subscribe-to-mailing-list" },
           ]},
         ];
 
@@ -88,6 +89,90 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p class="admonition-title">Note</p>
 <p>If the discussion forum fails to load in your browser, you may also visit the forum at <a href="https://pub34.bravenet.com/forum/2876504612/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank" title="this link">this link</a>.</p>
 </div>
+<p><br></p>
+<h3 id="subscribe-to-mailing-list">Subscribe to mailing list<a class="headerlink" href="#subscribe-to-mailing-list" title="Permanent link">🔗</a></h3>
+<p>Subscribe for updates and if you'd like to contribute to implementing the principles.</p>
+<!-- Start Bravenet.com Service Code -->
+<script type="text/javascript">
+  function validate_elist_99829806340()
+  {
+    e = document.getElementById('elist_err99829806340');
+    e.innerHTML="";
+    regexPattern = "^[-!#$%&'*+./0-9=?A-Z^_`a-z{|}]+@[-!#$%&'*+/0-9=?A-Z^_`a-z{|}~.]+?.+[a-zA-Z]{2,4}$";
+    if (!document.getElementById('elistaddress99829806340').value.match(regexPattern))
+    {
+      e.innerHTML += 'Invalid email address';
+    }
+    if (e.innerHTML != "") return false;
+    return true;
+  }
+</script>
+<!-- Start Bravenet.com Service Code -->
+<style type="text/css">
+  .bravenet-subscribe {
+    width:250px;
+    font:normal 18px verdana;
+    margin:auto;
+  }
+  .bravenet-jointext {
+    font:normal 18px verdana;
+    color:black;
+    margin-bottom: 10px;
+  }
+  .bravenet-input {
+    font: normal 15px verdana;
+    border: 1px solid grey;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    height: 35px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    position: static;
+    opacity: 1;
+  }
+  .bravenet-gobutton {
+    font:normal 15px verdana;
+    border:0;
+    background: black;
+    color:white;
+    border-radius:5px;
+    padding:5px 15px;
+    height:35px;
+    margin-bottom:10px;
+    position: static;
+    opacity: 1;
+  }
+  .bravenet-footer {
+    text-align:right;
+    margin-bottom:10px;
+    margin-top: 10px;
+  }
+  .bravenet-link {
+    font: normal 12px verdana;
+    display:block;
+  }
+</style>
+
+<div class="bravenet-subscribe">
+  <form action="https://pub34.bravenet.com/elist/add.php" method="post" onsubmit="return validate_elist_99829806340();">
+    <div class="bravenet-jointext">Bicycle Principles Mailing List</div>
+    <input class="bravenet-input" type="text" id="elistname" name="ename" placeholder="Full Name">
+    <input class="bravenet-input" type="text" name="emailaddress" id="elistaddress99829806340" placeholder="Email Address">
+    <input type="hidden" name="usernum" value="2876504612">
+    <input type="hidden" name="action" value="join">
+    <div id="tags"></div>
+    <div class="bravenet-footer">
+      <input class="bravenet-gobutton" type="submit" name="submit" value="Subscribe">
+      <a class="bravenet-link" href="https://www.bravenet.com/webtools/elist/">Free Mailing List by Bravenet</a>
+    </div>
+    <div id="elist_err99829806340"></div>
+  </form>
+
+</div>
+<!-- End Bravenet.com Service Code -->
 
   <br>
     
